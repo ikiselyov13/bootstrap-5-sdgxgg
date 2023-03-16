@@ -20,9 +20,12 @@
   background: #fff !important;
 }
 
-.header{
-  background-image: url('../images/headerback.jpg');
+.header {
+  width: 500px;
+  height: 500px;
+  background-image: url('../images/keyboard.jpg');
   background-attachment: fixed;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
- }
+  background-repeat: no-repeat;
+}
